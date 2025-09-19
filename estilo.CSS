@@ -1,0 +1,234 @@
+
+*{
+    margin: 0px;
+}
+
+body{
+background:  rgb(156, 137, 49);
+color: white;
+font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+h1 strong {
+    color: #795800;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header{
+    background: rgb(206, 176, 43);
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header li {
+    height: inherit;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.principal {
+    background: rgb(57, 200, 57);   
+    background-image: url('imgs/honeycomb-530987_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+}
+
+.principal img {
+    width: 300px;
+}
+
+.principal-boton {
+    width: 250px;
+    height: 40px;
+    background-color: #99cc00;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.somos {
+    background: white;
+    text-align: center;
+    padding: 60px;
+    color: black;
+    align-items: center;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+
+.somos h2 {
+    color:darkslategrey;
+    margin-bottom: 10px;
+}
+
+.somos p {
+    margin-bottom: 20px;
+}
+
+.somos-detalles {
+    height: in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: inherit;
+}
+
+
+.problema {
+    background: rgb(202, 200, 78);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;    
+}
+
+.problema-d {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    flex-wrap: nowrap;
+   padding: 0px 30px;  
+}
+
+.peoblema h2 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.problema a {
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.aplicar {
+    height: 500px;
+    background-color: white;
+    display: flex;
+    color: black;
+}
+
+.aplicar-detalles {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;    
+}
+
+.aplicar-detalles img {
+    height: 90%;
+}
+
+.nosotros {
+    background: rgb(156, 137, 49);
+    margin: 0px 20px 30px 20px;
+    
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+
+.gmail{
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+
+.face {
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.insta {
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+.nosotros h3 {
+    align-items: center;
+   margin-bottom: 20px;
+}
+
+/*
+.father {
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.son {
+    background: orange;
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+*/
